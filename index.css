@@ -16,6 +16,9 @@ nav{
     margin-top: 16px;
     /* align-items: center; */
 }
+ul button{
+    margin-bottom: 24px;
+}
 .list{
     display: flex;
     list-style-type: none;
@@ -44,6 +47,10 @@ nav{
     align-items: center;
     display: flex;
     justify-content: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: turquoise;
 }
 .body{
     margin-top: 115.5px;
@@ -89,6 +96,10 @@ display: flex;
     font-size: 16px;
     margin-top: 24px;
     margin-left: 16px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: turquoise;
 }
 .main{
     background: url("assets/hero-bg.png");
@@ -224,6 +235,7 @@ padding:120px
 }    
 .p{
     text-align: center;
+    margin-top: 10px;
 }
 .p p{
     color: white;
@@ -240,7 +252,14 @@ padding:120px
     display: flex;
     margin: 0 auto;
     align-items: center;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: aqua;
 }
 .home{
     margin-top: 24px;
+}
+hr{
+    color: #627382;
 }
