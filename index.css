@@ -34,14 +34,16 @@ nav{
     font-size: 16px;
 }
 .btn{
-    padding: 12.5px 16px;
+      padding: 20px;
     border-radius: 5px;
-    background-color: #469165;
+    background-color: #30B868;
     color: white;
     font-size: 16px;
     margin-top: 24px;
-    margin-bottom: 24px;
+    margin-left: 16px;
     align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .body{
     margin-top: 115.5px;
@@ -61,7 +63,7 @@ nav{
 }
 .body h1{
     margin-top: 16px;
-    font-size: 84px;
+    /* font-size: 84px; */
 }
 .note{
     color: #30B868;
@@ -76,10 +78,11 @@ nav{
 }
 .button{
 text-align: center;
+display: flex;
 
 }
 .btn1{
-     padding: 12.5px 16px;
+     padding: 20px;
     border-radius: 5px;
     background-color: transparent;
     color: white;
@@ -225,4 +228,19 @@ padding:120px
 .p p{
     color: white;
     
+}
+.btn-2{
+  padding: 20px;
+    border-radius: 5px;
+    background-color: #469165;
+    color: white;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+.home{
+    margin-top: 24px;
 }
