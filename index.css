@@ -74,6 +74,7 @@ ul button{
 }
 .note{
     color: #30B868;
+    font-size: 50px;
 }
 .text-body{
     text-align: center;
@@ -117,6 +118,7 @@ display: flex;
 }
 .str{
     color: white;
+    font-size: 50px;
 }
 .notes{
     text-align: center;
